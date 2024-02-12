@@ -1,0 +1,134 @@
+*{
+    background: black;
+    color: white;
+    overscroll-behavior: contain;
+}
+
+.btnNuevo {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 17px;
+    height: 32px;
+}
+
+.btnAsignarPax {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    height: 32px;
+    margin-top: 0px;
+}
+
+#BtnReasignar {
+    background: blue;
+    color: white;
+    border-radius: 5px;
+    border-color: white;
+    font-size: 18px;
+    margin-left: 20px;
+    height: 32px;
+}
+
+.horario{
+    border-radius: 5px;
+    width: 80px;
+    background:black;
+    height: 30px;
+    font-size: 18px;
+    border: solid 1px lightslategray;
+}
+
+.fechatipo{
+    border-radius: 5px;
+    background: black;
+    border: solid 1px rgb(119, 136, 153);
+}
+
+#btnSuma{
+    border-radius: 5px;
+    border: solid 1px blue;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 22px;
+    color: blue;
+}
+
+#btnResta{
+    border-radius: 5px;
+    border: solid 1px red;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 25px;
+    color:red;
+    padding-top: 0px;
+}
+
+.ClassNpasj{
+    border: solid 1px lightslategray;
+    border-radius: 5px;
+    background:black;
+    width: 35px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ClassKlms{
+    border: solid 1px lightslategray;
+    border-radius: 5px;
+    background:black;
+    width: 50px;
+    font-size: 18px;
+    text-align: center;
+}
+
+.ClassValor{
+    border: solid 1px lightslategray;
+    border-radius: 5px;
+    background: black;
+    width: 80px;
+    font-size: 18px;
+    text-align: center;
+}
+
+
+.ClassObs{
+    border-radius: 5px;
+    background: black;
+    width: 100%;
+    font-size: 18px;
+    border: solid 1px lightslategray;
+}
+
+.SelectCabeza{
+    width: 100%;
+    height: 32px;
+    font-size: 17px;
+    border-radius: 3px;
+    border: solid 1px lightslategray;
+}
+
+#MensajeEspera {
+    position: fixed;
+    top: 0;
+    left: 120;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(19, 18, 18);
+    z-index: 9;
+    opacity: 0.9;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .InpIngreso{
+    margin-top: 5px;
+    height: 35px;
+    font-size: 18px;
+    width: 300px;
+  }

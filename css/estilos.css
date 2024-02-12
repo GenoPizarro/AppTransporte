@@ -1,0 +1,165 @@
+    #main-header {
+        /* background:white;
+        color: white; */
+        height: 80px;
+        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+        top: 0; /* Posicionamos la cabecera pegada arriba */
+        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+        margin-bottom: 30px;
+    }
+
+    #panelCabezaEntrega {
+        /* background:white;
+        color: white; */
+        height: 80px;
+        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+        top: 0; /* Posicionamos la cabecera pegada arriba */
+        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+        margin-bottom: 30px;
+    }
+
+    #cabeceraTablas {
+        /* background:white;
+        color: white; */
+        height: 80px;
+        
+        width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+        left: 0; /* Posicionamos la cabecera al lado izquierdo */
+        top: 0; /* Posicionamos la cabecera pegada arriba */
+        position: fixed; /* Hacemos que la cabecera tenga una posición fija */
+        margin-bottom: 30px;
+    }
+
+    .btnAzul{
+        background: blue;
+        color: white;
+        height: 32px;
+        border-radius: 5px;
+        margin-top: 3px;
+        border: solid 1px blue;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btnAzul:hover {
+        background: white;
+        color: blue ;
+      }
+
+      .btnRojo{
+        background: red;
+        color: white;
+        height: 32px;
+        border-radius: 5px;
+        margin-top: 3px;
+        border: solid 1px red;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btnRojo:hover {
+        background: white;
+        color:red ;
+      }
+
+       .btnAmarillo{
+        background: yellow;
+        color: white;
+        height: 32px;
+        border-radius: 5px;
+        margin-top: 3px;
+        border: solid 1px yellow;
+        cursor: pointer;
+        font-size: 18px;
+    }
+
+    .btnAmarillo:hover {
+        background: white;
+        color: blue ;
+      }
+
+      .cuadroIngreso{
+        border: solid 1px lightblue;
+        border-radius: 3px;
+        height: 30px;
+        width: 300px;
+      }
+
+      .cuadroIngreso:hover{
+        border: solid 1px blue;
+        cursor: pointer;
+      }
+
+      div#is-relative{
+        max-width: 420px;
+        position: relative;
+      }
+      
+      /* El icono debe ser "position: absolute"
+       * Ademas le damos un "display: block" y lo posicionamos */
+      #icon{
+        position: absolute;
+        display: block;
+        bottom: .5rem;
+        right: 1rem;
+        
+        user-select: none;
+        cursor: pointer;
+      }
+      input.input{
+        padding-right: 2.5rem;
+      }
+
+      a[title]:hover {
+        position: relative;
+      }
+       
+      a[title]:hover:after {
+        position: absolute;
+        left: 50%;
+        top: 100%;
+        padding: 4px;
+        background: red;
+        white-space: nowrap;
+        z-index: 99;
+        transform: translateX(-50%);
+        content: attr(title);
+      }
+
+      #avisopedido{
+        width: 30px;
+        height: 30px;
+        border: solid 2px red;
+        background: white;
+        border-radius: 50%;
+        position: absolute;
+        text-align: center;
+        color: red;
+      }
+
+      #avisostock{
+        text-align: center;
+        color: white;
+        width: 30px;
+        height: 30px;
+        border: solid 2px red;
+        background: red;
+        border-radius: 50%;
+        position: absolute;
+      }
+
+      .stockUno{
+        width: 150px;
+        text-align: center;
+      }
+      .stockDos{
+        width: 35px;
+        height: 35px;
+        padding-top: 4px;
+        text-align: center;
+        border: solid 1px blue;
+        border-radius: 50% !important;
+      }
+      
